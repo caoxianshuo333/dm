@@ -1,7 +1,8 @@
 import request from '@/utils/request'
+import md5 from 'md5'
 
 export interface LoginData {
-  email: string
+  account: string
   password: string
 }
 
@@ -16,7 +17,15 @@ export interface UserState {
 }
 
 export function login(data: LoginData): Promise<any> {
-  return request.post<LoginRes>('/auth/login', data)
+  return request.post<LoginRes>('/blade-auth/oauth/token', null, {
+    params: {
+      ...data,
+      password: md5(data.password),
+      grant_type: 'password',
+      scope: 'all',
+      type: 'account',
+    },
+  })
 }
 
 export function logout() {
@@ -37,4 +46,8 @@ export function resetPassword(): Promise<any> {
 
 export function register(): Promise<any> {
   return request.post('/user/register')
+}
+
+export function getFtyId() {
+  return request.get('/blade-system/sso/tenant-list')
 }

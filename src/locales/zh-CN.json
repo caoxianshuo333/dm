@@ -34,7 +34,8 @@
   },
   "layouts": {
     "home": "首页",
-    "profile": "我的"
+    "profile": "我的",
+    "repair": "维修中心"
   },
   "profile": {
     "login": "登录",
@@ -55,7 +56,11 @@
     "pleaseEnterEmail": "请输入邮箱",
     "pleaseEnterPassword": "请输入密码",
     "sign-up": "还没有账号？点击注册",
-    "forgot-password": "忘记密码？"
+    "forgot-password": "忘记密码？",
+    "account": "账号",
+    "pleaseEnterAccount": "请输入账号",
+    "selectCompany": "选择公司",
+    "pleaseSelectCompany": "请选择公司"
   },
   "forgot-password": {
     "email": "邮箱",

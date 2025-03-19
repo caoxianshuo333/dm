@@ -34,7 +34,8 @@
   },
   "layouts": {
     "home": "HOME",
-    "profile": "PROFILE"
+    "profile": "PROFILE",
+    "repair": "REPAIR"
   },
   "profile": {
     "login": "Login",
@@ -51,11 +52,15 @@
     "login": "Sign In",
     "logout": "Sign Out",
     "email": "Email",
+    "account": "Account",
     "password": "Password",
     "pleaseEnterEmail": "Please enter email",
     "pleaseEnterPassword": "Please enter password",
+    "pleaseEnterAccount": "Please enter account",
     "sign-up": "Click to sign up",
-    "forgot-password": "Forgot password?"
+    "forgot-password": "Forgot password?",
+    "selectCompany": "Select Company",
+    "pleaseSelectCompany": "Please select a company"
   },
   "forgot-password": {
     "email": "Email",
