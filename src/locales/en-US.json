@@ -35,7 +35,8 @@
   "layouts": {
     "home": "HOME",
     "profile": "PROFILE",
-    "repair": "REPAIR"
+    "repair": "REPAIR",
+    "workbench": "WORKBENCH"
   },
   "profile": {
     "login": "Login",
@@ -102,5 +103,37 @@
     "logout": "Sign Out",
     "currentVersion": "Current Version",
     "comfirmTitle": "Confirm Exit?"
+  },
+  "workbench": {
+    "title": "Workbench",
+    "commonFeatures": "Common Features",
+    "deviceMonitoring": "Device Monitoring",
+    "taskManagement": "Task Management",
+    "dataStatistics": "Data Statistics",
+    "deviceArchives": "Device Archives",
+    "operationStatus": "Operation Status",
+    "devicesOnline": "Devices Online",
+    "devicesOffline": "Devices Offline",
+    "alarmDevices": "Alarm Devices",
+    "normalOperation": "Normal Operation",
+    "units": "Units",
+    "todoItems": "To-Do Items",
+    "maintenancePlan": "Create Maintenance Plan",
+    "monthlyReport": "Write Monthly Report",
+    "newDeviceAcceptance": "New Device Acceptance",
+    "dueTodayDeadline": "Due Today",
+    "dueTomorrowDeadline": "Due Tomorrow",
+    "dueDaysLaterDeadline": "Days Later",
+    "boss": "Boss",
+    "cto": "Chief Technology Officer",
+    "appList": "Application List",
+    "repair": "Repair",
+    "inspection": "Inspection Center",
+    "maintenance": "Maintenance Center",
+    "todoList": "Todo List",
+    "pendingOrders": "Pending Orders",
+    "factoryName": "Agricultural Fertilizer Co. Power Room",
+    "companyName": "Company/Workshop Name",
+    "remainingDays": "Days Remaining"
   }
 }

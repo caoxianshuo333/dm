@@ -22,6 +22,12 @@ const show = computed(() => route.name && routeWhiteList.includes(route.name))
         <div class="i-carbon:tool-kit" />
       </template>
     </van-tabbar-item>
+    <van-tabbar-item replace to="/workbench">
+      {{ t('layouts.workbench') || '工作台' }}
+      <template #icon>
+        <div class="i-carbon:dashboard" />
+      </template>
+    </van-tabbar-item>
     <van-tabbar-item replace to="/profile">
       {{ t('layouts.profile') }}
       <template #icon>

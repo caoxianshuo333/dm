@@ -32,6 +32,8 @@ declare module 'vue-router/auto-routes' {
     'repairDetail': RouteRecordInfo<'repairDetail', '/repair/repairDetail', Record<never, never>, Record<never, never>>,
     'ScrollCache': RouteRecordInfo<'ScrollCache', '/scroll-cache', Record<never, never>, Record<never, never>>,
     'settings': RouteRecordInfo<'settings', '/settings', Record<never, never>, Record<never, never>>,
+    '/thHome/': RouteRecordInfo<'/thHome/', '/thHome', Record<never, never>, Record<never, never>>,
     'unocss': RouteRecordInfo<'unocss', '/unocss', Record<never, never>, Record<never, never>>,
+    'workbench': RouteRecordInfo<'workbench', '/workbench', Record<never, never>, Record<never, never>>,
   }
 }

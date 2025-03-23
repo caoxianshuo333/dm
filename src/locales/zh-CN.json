@@ -35,7 +35,8 @@
   "layouts": {
     "home": "首页",
     "profile": "我的",
-    "repair": "维修中心"
+    "repair": "维修中心",
+    "workbench": "工作台"
   },
   "profile": {
     "login": "登录",
@@ -102,5 +103,37 @@
     "logout": "退出登录",
     "currentVersion": "当前版本",
     "comfirmTitle": "确认退出？"
+  },
+  "workbench": {
+    "title": "工作台",
+    "commonFeatures": "常用功能",
+    "deviceMonitoring": "设备监控",
+    "taskManagement": "任务管理",
+    "dataStatistics": "数据统计",
+    "deviceArchives": "设备档案",
+    "operationStatus": "运行状态",
+    "devicesOnline": "设备在线",
+    "devicesOffline": "设备离线",
+    "alarmDevices": "告警设备",
+    "normalOperation": "正常运行",
+    "units": "台",
+    "todoItems": "待办事项",
+    "maintenancePlan": "设备维护计划制定",
+    "monthlyReport": "月度运行报告编写",
+    "newDeviceAcceptance": "新设备安装验收",
+    "dueTodayDeadline": "今日截止",
+    "dueTomorrowDeadline": "明日截止",
+    "dueDaysLaterDeadline": "天后截止",
+    "boss": "老板",
+    "cto": "首席技术官",
+    "appList": "应用列表",
+    "repair": "维修",
+    "inspection": "巡检中心",
+    "maintenance": "保养中心",
+    "todoList": "待办列表",
+    "pendingOrders": "待接单",
+    "factoryName": "农肥有限公司配电室",
+    "companyName": "公司or车间名称",
+    "remainingDays": "剩余天数"
   }
 }
